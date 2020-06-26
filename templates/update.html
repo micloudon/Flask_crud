@@ -5,9 +5,13 @@
 {% endblock %}
 
 {% block body %}
+<header>
+    <br>
+    <h1><strong>Update Task</strong></h1>
+    <br>
+</header>
+<br>
 <div class="content">
-    <h1 style="text-align: center">Update Task</h1>
-
     <div class="form">
         <form action="/update/{{task.id}}" method="POST" align="center">
             <input type="text" name="content" id="{{task.content}}">

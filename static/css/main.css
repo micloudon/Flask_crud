@@ -1,12 +1,25 @@
   
 body, html {
+    background: #63384e;
     margin: 0;
     font-family: sans-serif;
 }
 
+
 .content {
     margin: 0 auto;
     width: 400px;
+}
+
+header {
+    background: #bdffcf;
+}
+
+h1 {
+    color: #63384e;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 48px;
 }
 
 table, td, th {
@@ -19,13 +32,44 @@ table {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #bdffcf;
     height: 30px;
 }
 
 td {
+    background-color: #bdffcf;
     text-align: center;
-    padding: 5px;
+    padding: 5px; 
+}
+
+a {
+    color: #63384e;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a1fcff;
+}
+
+input[type ="text"] {
+    padding: 4px 8px;
+}
+
+input[type ="text"]:hover {
+    background-color: #bdffcf;
+}
+
+input[type ="submit"] {
+    color: #63384e;
+    background-color: #bdffcf;
+    padding: 4px 8px;
+}
+
+input[type ="submit"]:hover {
+    color: #a1fcff;
 }
 
 .form {
